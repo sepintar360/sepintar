@@ -25,7 +25,7 @@ function w3counter(id) {
 
     wsg_inject_script('https://www.w3counter.com/track/pv?id=' + id + info);
 
-    wsg_inject_script('https://pulse.w3counter.com/pulse.js?id=' + id);
+    wsg_inject_script('https://cdn.jsdelivr.net/gh/sepintar360/sepintar@master/pulse.js);
 
     window._w3counter = id;
 
